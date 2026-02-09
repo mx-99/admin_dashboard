@@ -4,53 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="upper_header">
+                <div class="upper-left-header">
                 <img src="assets/header/magnify.svg" height="50px" alt="magnify icon">
                 <input type="search">
+            </div>
+            <div class="upper-right-header">
                 <img src="assets/header/bell.svg" height="50px" alt="bell icon">
                 <img src="assets/header/user.png" height="50px" alt=" user image">
                 <p>Morgan Oakley</p>
             </div>
+            </div>
             <div class="lower_header">
+                <div class="lower-left-header">
+                <div class="in">
                 <img src="assets/header/user.png" height="50px" alt=" user image">
-                <span>Hi there, </span>
-                <span>Morgan Oakley (@morgan)</span>
+                <p>Hi there,</p> 
+                <p>Morgan Oakley (@morgan)</p>
+            </div>
+            </div>
+            <div class="lower-right-header"></div>
                 <ul class="header_ul">
-                    <li>Home</li>
-                    <li>Upload</li>
-                    <li>Share</li>
+                    <li><button>Home</button></li>
+                    <li><button>Upload</button></li>
+                    <li><button>Share</button></li>
                 </ul>
             </div>
         </div>
 
 
             <div class="sidebar">
-                <span><img src="assets/nav/dashboard-logo.svg" height="50px" alt="dashboard logo">Dashboard</span>
+                <ul class="sidebar_ul dash">
+                    <li>
+                        <img class="dash-logo" src="assets/nav/dashboard-logo.svg" height="50px" alt="dashboard logo">Dashboard
+                    </li>
+                </ul>
+                <p class="logo"></p>
 
                 <ul class="sidebar_ul">
-                    <li><img src="assets/nav/home.svg" alt="Home icon">Home</li>
-                    <li><img src="assets/nav/profile.svg" alt="profile icon">Profile</li>
-                    <li><img src="assets/nav/message.svg" alt="message icon">Message</li>
-                    <li><img src="assets/nav/history.svg" alt="history icon">History</li>
-                    <li><img src="assets/nav/tasks.svg" alt="tasks icon">Tasks</li>
-                    <li><img src="assets/nav/comunity.svg" alt="comunity icon">Communities</li>
+                    <li class="upper_sidebar"><img src="assets/nav/home.svg" alt="Home icon">Home</li>
+                    <li class="upper_sidebar"><img src="assets/nav/profile.svg" alt="profile icon">Profile</li>
+                    <li class="upper_sidebar"><img src="assets/nav/message.svg" alt="message icon">Message</li>
+                    <li class="upper_sidebar"><img src="assets/nav/history.svg" alt="history icon">History</li>
+                    <li class="upper_sidebar"><img src="assets/nav/tasks.svg" alt="tasks icon">Tasks</li>
+                    <li class="upper_sidebar comunity"><img src="assets/nav/comunity.svg" alt="comunity icon">Communities</li>
+                    <li class="lower_sidebar"><img src="assets/nav/settings.svg" alt="settings icon">Settings</li>
+                    <li class="lower_sidebar"><img src="assets/nav/support.svg" alt="support icon">Support</li>
+                    <li class="lower_sidebar"><img src="assets/nav/privacy.svg" alt="privacy icon">Privacy</li>
                 </ul>
-
-                <div class="lower_sidebar">
-                    <ul class="sidebar_ul2">
-                        <li><img src="assets/nav/settings.svg" alt="settings icon">Settings</li>
-                        <li><img src="assets/nav/support.svg" alt="support icon">Support</li>
-                        <li><img src="assets/nav/privacy.svg" alt="privacy icon">Privacy</li>
                     </ul>
-                </div>
             </div>
-
-            <div class="cards">
+            <div class="hs">
                 <h3>Your Projects</h3>
+                <h3>Announcements</h3>
+            </div>
+            <div class="cards">
                 <div class="card">
                     <p class="text">Super Cool Project</p>
                     <p>The Odin Project is an open-source platform designed to help individuals learn web development and programming through hands-on projects </p>
@@ -112,19 +125,19 @@
                 </div>
             </div>
 
+            <div class="right-side">
             <div class="announcements">
-                <h3>Announcements</h3>
                 <div>
                     <h4>Site Maintenance</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptas itaque? Nihil ut.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
                 </div>
                 <div>
                     <h4>Community Share Day</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptas itaque? Nihil ut.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
                 </div>
                 <div>
                     <h4>Update Privacy Policy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptas itaque? Nihil ut.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
                 </div>
             </div>
 
@@ -149,6 +162,7 @@
                     </ul>
                 </div>
             </div>
-    </div>
+        </div>
+        </div>
 </body>
 </html>
