@@ -12,4 +12,8 @@ An **Admin Dashboard layout** built as part of *The Odin Project – Intermediat
 
 The goal of this project was to build a dashboard using **CSS Grid** 
 
+## Screenshot
+
+![Admin Dashboard Screenshot](/assets/Screenshot.png)
+
 
